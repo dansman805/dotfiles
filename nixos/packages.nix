@@ -13,6 +13,7 @@
     i3
     jetbrains.idea-community
     lsof
+    neofetch
     nim
     openjdk11
     openscad
