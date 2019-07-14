@@ -7,6 +7,7 @@ sudo stow nixos -t /etc/nixos
 stow i3 ~/.config/i3
 stow git ~/.config/git
 stow fish ~/.config/fish
+stow xresources
 
 # if on existing install
 sudo -i nixos-rebuild switch
