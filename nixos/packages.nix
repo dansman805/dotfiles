@@ -24,11 +24,13 @@
     stow
     texlive.combined.scheme-full
     texworks
+    unzip
     vim
     vscodium
     w3m
     xfce.thunar
     xorg.xrandr
+    zip
   ];
 
   fonts.fonts = with pkgs; [
