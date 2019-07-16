@@ -2,7 +2,6 @@
 {
   environment.systemPackages = with pkgs; [
     arandr
-    clipmenu
     cloc
     firefox
     fish
@@ -16,9 +15,9 @@
     neofetch
     nim
     openjdk11
-    openscad
     pavucontrol
     pciutils
+    python37Full
     rdiff_backup
     rxvt_unicode
     stow
