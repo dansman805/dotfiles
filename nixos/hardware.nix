@@ -20,6 +20,7 @@
     {
       device = "/dev/disk/by-label/Backup";
       fsType = "ext4";
+      options = [ "nofail" ];
     };
 
   nix.maxJobs = lib.mkDefault 12;
