@@ -11,6 +11,7 @@
     gitAndTools.gitFull
     i3
     jetbrains.idea-community
+    kotlin
     lsof
     neofetch
     nim
@@ -18,6 +19,7 @@
     pavucontrol
     pciutils
     python37Full
+    python37Packages.pip
     rdiff_backup
     rxvt_unicode
     stow

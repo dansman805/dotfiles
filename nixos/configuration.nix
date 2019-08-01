@@ -37,4 +37,6 @@
     extraGroups = [ "audio" ];
     shell = pkgs.fish;
   };
+
+  # services.openssh.enable = true;
 }
