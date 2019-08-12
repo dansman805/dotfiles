@@ -9,6 +9,7 @@
     gcc
     gradle
     gitAndTools.gitFull
+    htop
     i3
     jetbrains.idea-community
     kotlin

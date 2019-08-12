@@ -171,3 +171,4 @@ bar {
 
 bindsym $mod+Shift+Return "exec firefox"
 bindsym --release Print exec --no-startup-id "flameshot gui"
+bindsym Mod4+Mod3+l i3lock
