@@ -14,7 +14,6 @@
     jetbrains.idea-community
     kotlin
     lsof
-    multimc
     neofetch
     nim
     openjdk11
