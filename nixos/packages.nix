@@ -21,6 +21,7 @@
     pciutils
     python37Full
     python37Packages.pip
+    racket
     rdiff_backup
     rxvt_unicode
     stow
