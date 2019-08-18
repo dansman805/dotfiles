@@ -16,6 +16,7 @@
     i3
     jetbrains.idea-community
     kotlin
+    libreoffice
     lsof
     neofetch
     nim
