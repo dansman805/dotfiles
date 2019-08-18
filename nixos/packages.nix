@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    androidenv.androidPkgs_9_0.platform-tools
     arandr
     cloc
     feh
@@ -8,8 +9,9 @@
     fish
     flameshot
     gcc
-    gradle
+    gimp
     gitAndTools.gitFull
+    gradle
     htop
     i3
     jetbrains.idea-community
@@ -35,6 +37,8 @@
     xfce.thunar
     xorg.xrandr
     zip
+
+    (import (fetchTarball "channel:nixos-unstable") {}).android-studio
   ];
 
   fonts.fonts = with pkgs; [
