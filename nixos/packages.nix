@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
     androidenv.androidPkgs_9_0.platform-tools
     arandr
+    cargo
     cloc
     feh
     firefox
@@ -11,6 +12,8 @@
     gcc
     gimp
     gitAndTools.gitFull
+    gnupg
+    guvcview
     gradle
     htop
     i3
@@ -18,6 +21,7 @@
     kotlin
     libreoffice
     lsof
+    minicom
     neofetch
     nim
     openjdk11
