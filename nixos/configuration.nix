@@ -19,6 +19,8 @@
   nixpkgs.config.allowUnfree = true;
   hardware.enableRedistributableFirmware = true;
 
+  hardware.bluetooth.enable = true;
+
   environment.variables.EDITOR = "vim";
 
   # Set your time zone.

@@ -4,6 +4,7 @@
     androidenv.androidPkgs_9_0.platform-tools
     arandr
     blueman
+    bluez
     cargo
     cloc
     feh
