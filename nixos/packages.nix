@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
     androidenv.androidPkgs_9_0.platform-tools
     arandr
+    blueman
     cargo
     cloc
     feh
@@ -33,6 +34,7 @@
     rdiff_backup
     rxvt_unicode
     stow
+    syncthing
     texlive.combined.scheme-full
     texworks
     unzip
