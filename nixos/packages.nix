@@ -42,6 +42,7 @@
     vim
     vscodium
     w3m
+    xbanish
     xfce.thunar
     xorg.xrandr
     zip
