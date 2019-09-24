@@ -24,6 +24,8 @@
     libreoffice
     lsof
     minicom
+    minecraft
+    multimc
     neofetch
     nim
     openjdk11
