@@ -33,6 +33,7 @@
     pciutils
     python37Full
     python37Packages.pip
+    python37Packages.sphinx
     racket
     rdiff_backup
     rxvt_unicode
