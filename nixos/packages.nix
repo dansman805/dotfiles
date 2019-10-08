@@ -14,6 +14,7 @@
     gcc
     gimp
     gitAndTools.gitFull
+    gnumake
     gnupg
     guvcview
     gradle
