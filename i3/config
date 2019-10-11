@@ -36,10 +36,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start rofi as a progam launcher
-bindsym $mod+d exec "rofi -show run -display-run '>>> ' -width 400 -theme ~/dotfiles/rofi/bala.rasi"
-
-# start rofi as a window switcher
-bindsym $mod+Tab exec "rofi -show window -width 400 -theme ~/dotfiles/rofi/bala.rasi"
+bindsym $mod+d exec "rofi -show run -display-run '>>> ' "
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -179,4 +176,4 @@ exec_always "xbanish &"
 
 exec clipmenud
 
-bindsym Control+Shift+v exec "export CM_LAUNCHER=rofi; clipmenu -width 400 -theme ~/dotfiles/rofi/bala.rasi" 
+bindsym Control+Shift+v exec "export CM_LAUNCHER=rofi; clipmenu -p  'paste: ' ' ' -width 400 -theme ~/dotfiles/rofi/bala.rasi" 
