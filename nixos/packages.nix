@@ -27,6 +27,7 @@
     lsof
     minicom
     minecraft
+    mkdocs
     multimc
     neofetch
     nim
