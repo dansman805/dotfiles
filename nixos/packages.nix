@@ -6,6 +6,7 @@
     blueman
     bluez
     cargo
+    clipmenu
     cloc
     feh
     firefox
@@ -37,6 +38,7 @@
     python37Packages.sphinx
     racket
     rdiff_backup
+    rofi
     rxvt_unicode
     stow
     syncthing
