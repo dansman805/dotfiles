@@ -10,6 +10,7 @@
       ./hardware.nix
       ./packages.nix
       ./wifi.nix
+      ./services.nix
     ];
 
   boot.loader.grub.version = 2;
