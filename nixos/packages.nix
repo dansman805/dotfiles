@@ -8,6 +8,7 @@
     cargo
     clipmenu
     cloc
+    evince
     feh
     firefox
     fish
@@ -17,6 +18,7 @@
     gitAndTools.gitFull
     gnumake
     gnupg
+    graphviz
     guvcview
     gradle
     htop
