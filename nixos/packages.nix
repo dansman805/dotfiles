@@ -8,6 +8,7 @@
     cargo
     clipmenu
     cloc
+    dos2unix
     evince
     feh
     firefox
