@@ -60,7 +60,12 @@
 
   fonts.fonts = with pkgs; [
     fira
+    fira-mono
+    fira-code
     hermit
+    inconsolata
+    montserrat
+    roboto
     unifont
   ];
 }
