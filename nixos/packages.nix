@@ -24,6 +24,7 @@
     gradle
     htop
     i3
+    jdk
     jetbrains.idea-community
     kotlin
     libreoffice

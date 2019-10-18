@@ -7,4 +7,9 @@
             "0 * * * *      root   rdiff-backup /etc/ /mnt/backup-drive/nixos-desktop/etc/ >> /tmp/cron.log"
         ];
     };
+
+    services.printing = {
+        enable = true;
+        drivers = [ pkgs.gutenprint ];
+    };
 }
