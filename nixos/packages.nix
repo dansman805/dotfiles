@@ -24,6 +24,7 @@
     gradle
     htop
     i3
+    i3blocks
     jetbrains.idea-community
     kotlin
     libreoffice
