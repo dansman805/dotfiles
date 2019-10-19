@@ -12,4 +12,11 @@
         enable = true;
         drivers = [ pkgs.gutenprint ];
     };
+
+    services.taskserver = {
+        enable = true;
+        fqdn = "server";
+        listenHost = "::";
+        organisations.personal.users = [ "dansman805" ];
+    };
 }

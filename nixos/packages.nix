@@ -36,6 +36,7 @@
     openjdk11
     pavucontrol
     pciutils
+    ptask
     python37Full
     python37Packages.pip
     python37Packages.sphinx
@@ -45,6 +46,7 @@
     rxvt_unicode
     stow
     syncthing
+    taskwarrior
     texlive.combined.scheme-full
     texworks
     unzip
