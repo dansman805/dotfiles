@@ -24,7 +24,6 @@
     gradle
     htop
     i3
-    jdk
     jetbrains.idea-community
     kotlin
     libreoffice
@@ -53,6 +52,7 @@
     vscodium
     w3m
     xbanish
+    xdotool
     xfce.thunar
     xorg.xrandr
     zip

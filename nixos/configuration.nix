@@ -22,8 +22,6 @@
 
   hardware.bluetooth.enable = true;
 
-  environment.variables.EDITOR = "vim";
-
   # Set your time zone.
   time.timeZone = "America/New_York";
 
@@ -42,4 +40,9 @@
   };
 
   # services.openssh.enable = true;
+
+  environment.variables = {
+    EDITOR = "vim";
+    ANDROID_HOME = "/home/dansman805/Android/Sdk/";
+  };
 }
