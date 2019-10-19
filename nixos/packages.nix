@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
     androidenv.androidPkgs_9_0.platform-tools
     arandr
+    bazel
     blueman
     bluez
     cargo
