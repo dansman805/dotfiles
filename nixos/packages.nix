@@ -35,6 +35,7 @@
     multimc
     neofetch
     nim
+    nodejs
     openjdk11
     pavucontrol
     pciutils
