@@ -19,4 +19,6 @@
         listenHost = "::";
         organisations.personal.users = [ "dansman805" ];
     };
+
+    services.flatpak.enable = true;
 }

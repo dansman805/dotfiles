@@ -20,7 +20,19 @@
   nixpkgs.config.allowUnfree = true;
   hardware.enableRedistributableFirmware = true;
 
+  hardware.pulseaudio = {
+    enable = true;
+
+    # NixOS allows either a lightweight build (default) or full build of PulseAudio to be installed.
+    # Only the full build has Bluetooth support, so it must be selected here.
+    package = pkgs.pulseaudioFull;
+  };
+
   hardware.bluetooth.enable = true;
+  hardware.bluetooth.extraConfig = "
+    [General]
+    Enable=Source,Sink,Media,Socket
+  ";
 
   # Set your time zone.
   time.timeZone = "America/New_York";

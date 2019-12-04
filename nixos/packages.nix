@@ -6,6 +6,7 @@
     bazel
     blueman
     bluez
+    calibre
     cargo
     clipmenu
     cloc
@@ -31,12 +32,13 @@
     libreoffice
     lsof
     minicom
-    minecraft
     multimc
     neofetch
     nim
     nodejs
+    octaveFull
     openjdk11
+    openssl
     pavucontrol
     pciutils
     ptask
@@ -52,6 +54,7 @@
     taskwarrior
     texlive.combined.scheme-full
     texworks
+    unity3d
     unzip
     vim
     vscodium

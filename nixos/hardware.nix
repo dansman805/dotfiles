@@ -26,4 +26,7 @@
   swapDevices = [ { device = "/dev/disk/by-label/swap"; } ];
 
   nix.maxJobs = lib.mkDefault 12;
+
+  hardware.opengl.driSupport32Bit = true;
+  hardware.pulseaudio.support32Bit = true;
 }

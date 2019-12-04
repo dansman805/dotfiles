@@ -178,6 +178,7 @@ bar {
 
 bindsym $mod+Shift+Return "exec firefox"
 bindsym $mod+Shift+s exec "flameshot gui"
+bindsym $mod+o exec "octave --force-gui"
 exec_always "xbanish &"
 
 exec clipmenud
