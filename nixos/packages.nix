@@ -47,7 +47,10 @@
     python37Packages.sphinx
     racket
     rdiff_backup
+    R
+    rstudio
     rofi
+    rustc
     rxvt_unicode
     stow
     syncthing
