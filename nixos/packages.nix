@@ -28,6 +28,8 @@
     i3
     i3blocks
     jetbrains.idea-community
+    kakoune
+    kitty
     kotlin
     libreoffice
     lsof
@@ -50,8 +52,9 @@
     R
     rstudio
     rofi
-    rustc
+    rustup
     rxvt_unicode
+    stack
     stow
     syncthing
     taskwarrior
