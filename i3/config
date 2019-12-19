@@ -183,5 +183,5 @@ exec_always "xbanish &"
 
 exec clipmenud
 
-bindsym Control+Shift+v exec "export CM_LAUNCHER=rofi; clipmenu -p  'paste: ' ' ' -width 400 -theme ~/dotfiles/rofi/bala.rasi"  
+bindsym Control+mod4+v exec "export CM_LAUNCHER=rofi; clipmenu -p  'paste: ' ' ' -width 400 -theme ~/dotfiles/rofi/bala.rasi"  
 # ; xdotool key --clearmodifiers 'ctrl+v'
