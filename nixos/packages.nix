@@ -11,11 +11,13 @@
     clipmenu
     cloc
     dos2unix
+    dotnet-sdk
     evince
     feh
     firefox
     fish
     flameshot
+    fsharp
     gcc
     gimp
     gitAndTools.gitFull
@@ -27,6 +29,7 @@
     htop
     i3
     i3blocks
+    imagemagick
     jetbrains.idea-community
     kakoune
     kitty
