@@ -1,6 +1,7 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    asciidoctor    
     androidenv.androidPkgs_9_0.platform-tools
     arandr
     bazel
