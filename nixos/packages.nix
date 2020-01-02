@@ -69,6 +69,7 @@
     vim
     vscodium
     w3m
+    wget
     xbanish
     xdotool
     xfce.thunar
