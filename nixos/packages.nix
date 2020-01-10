@@ -51,6 +51,7 @@
     ptask
     python37Full
     python37Packages.pip
+    python37Packages.setuptools
     python37Packages.sphinx
     racket
     rdiff_backup
