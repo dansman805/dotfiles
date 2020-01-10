@@ -32,6 +32,7 @@
     i3blocks
     imagemagick
     jetbrains.idea-community
+    jq
     kakoune
     kitty
     kotlin
