@@ -7,6 +7,7 @@
     bazel
     blueman
     bluez
+    cabal-install
     calibre
     cargo
     clipmenu
@@ -20,6 +21,7 @@
     flameshot
     fsharp
     gcc
+    ghc
     gimp
     gitAndTools.gitFull
     gnumake
