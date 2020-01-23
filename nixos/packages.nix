@@ -55,9 +55,10 @@
     python37Packages.pip
     python37Packages.setuptools
     python37Packages.sphinx
+    R
     racket
     rdiff_backup
-    R
+    ripgrep
     rstudio
     rofi
     rustup
@@ -66,6 +67,7 @@
     stow
     syncthing
     taskwarrior
+    tealdeer
     texlive.combined.scheme-full
     texworks
     unity3d
