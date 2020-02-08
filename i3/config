@@ -178,10 +178,21 @@ bar {
 
 bindsym $mod+Shift+Return "exec firefox"
 bindsym $mod+Shift+s exec "flameshot gui"
-bindsym $mod+o exec "octave --force-gui"
+
 exec_always "xbanish &"
 
 exec clipmenud
 
 bindsym Control+mod4+v exec "export CM_LAUNCHER=rofi; clipmenu -p  'paste: ' ' ' -width 400 -theme ~/dotfiles/rofi/bala.rasi"  
-# ; xdotool key --clearmodifiers 'ctrl+v'
+
+mode "open" {
+        bindsym f exec firefox; mode "default"
+        bindsym p exec "firefox --private-window"; mode "default"
+        bindsym t exec kitty; mode "default"
+        bindsym l exec i3lock; mode "default"
+        bindsym d exec Discord; mode "default"
+        
+        bindsym $mod+o mode "default"
+}
+
+bindsym $mod+o mode "open"

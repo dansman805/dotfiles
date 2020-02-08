@@ -1,5 +1,7 @@
 { pkgs, ... }:
 {
+  nixpkgs.config.allowUnfree = true;
+
   environment.systemPackages = with pkgs; [
     asciidoctor    
     androidenv.androidPkgs_9_0.platform-tools
@@ -12,6 +14,7 @@
     cargo
     clipmenu
     cloc
+    discord
     dos2unix
     dotnet-sdk
     evince
@@ -36,6 +39,7 @@
     jetbrains.idea-community
     jq
     kakoune
+    killall
     kitty
     kotlin
     libreoffice
@@ -46,10 +50,11 @@
     nim
     nodejs
     octaveFull
-    openjdk11
+    # openjdk11
     openssl
     pavucontrol
     pciutils
+    polybar
     ptask
     python37Full
     python37Packages.pip
@@ -70,6 +75,7 @@
     tealdeer
     texlive.combined.scheme-full
     texworks
+    unifont
     unity3d
     unzip
     vim
@@ -83,6 +89,7 @@
     zip
 
     (import (fetchTarball "channel:nixos-unstable") {}).android-studio
+    (import (fetchTarball "channel:nixos-unstable") {}).jdk12
   ];
 
   fonts.fonts = with pkgs; [
