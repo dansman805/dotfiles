@@ -50,7 +50,7 @@
     nim
     nodejs
     octaveFull
-    # openjdk11
+    openjdk11
     openssl
     pavucontrol
     pciutils

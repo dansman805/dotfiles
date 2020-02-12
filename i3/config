@@ -182,6 +182,7 @@ bindsym $mod+Shift+s exec "flameshot gui"
 exec_always "xbanish &"
 
 exec clipmenud
+exec ~/.screenlayout/screenlayout.sh
 
 bindsym Control+mod4+v exec "export CM_LAUNCHER=rofi; clipmenu -p  'paste: ' ' ' -width 400 -theme ~/dotfiles/rofi/bala.rasi"  
 
@@ -196,3 +197,4 @@ mode "open" {
 }
 
 bindsym $mod+o mode "open"
+
