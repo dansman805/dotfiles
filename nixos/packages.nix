@@ -17,6 +17,7 @@
     discord
     dos2unix
     dotnet-sdk
+    emacs
     evince
     feh
     firefox
@@ -60,6 +61,10 @@
     python37Packages.pip
     python37Packages.setuptools
     python37Packages.sphinx
+    python37Packages.numpy
+    python37Packages.matplotlib
+    python37Packages.pandas
+    python37Packages.requests
     R
     racket
     rdiff_backup
