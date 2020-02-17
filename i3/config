@@ -192,7 +192,8 @@ mode "open" {
         bindsym t exec kitty; mode "default"
         bindsym l exec i3lock; mode "default"
         bindsym d exec Discord; mode "default"
-        
+        bindsym e exec emacs; mode "default"
+
         bindsym $mod+o mode "default"
 }
 
