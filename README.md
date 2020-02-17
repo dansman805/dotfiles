@@ -4,10 +4,12 @@ git clone https://github.com/dansman805/dotfiles
 cd dotfiles
 
 sudo stow nixos -t /etc/nixos
-stow i3 ~/.config/i3
-stow git ~/.config/git
-stow fish ~/.config/fish
-stow rofi ~/.config/rofi
+stow emacs -t ~/.emacs.d/
+stow i3 -t ~/.config/i3
+stow git -t ~/.config/git
+stow fish -t ~/.config/fish
+stow kitty -t ~/.config/kitty
+stow rofi -t ~/.config/rofi
 stow xresources
 
 # if on existing install
