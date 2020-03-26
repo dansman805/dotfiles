@@ -83,6 +83,7 @@
     tealdeer
     texlive.combined.scheme-full
     texworks
+    trash-cli
     unifont
     unity3d
     unzip
