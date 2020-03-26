@@ -12,13 +12,16 @@
     cabal-install
     calibre
     cargo
+    clang
     clipmenu
     cloc
+    coreutils
     discord
     dos2unix
     dotnet-sdk
     emacs
     evince
+    fd
     feh
     firefox
     fish
