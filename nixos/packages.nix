@@ -98,7 +98,6 @@
     zip
 
     (import (fetchTarball "channel:nixos-unstable") {}).android-studio
-    (import (fetchTarball "channel:nixos-unstable") {}).jdk12
   ];
 
   fonts.fonts = with pkgs; [
