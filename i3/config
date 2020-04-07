@@ -406,9 +406,7 @@ mode "open" {
         bindsym f exec firefox; mode "default"
         bindsym p exec "firefox --private-window"; mode "default"
         bindsym t exec kitty; mode "default"
-        bindsym l exec i3lock; mode "default"
-        bindsym d exec Discord; mode "default"
-        bindsym e exec emacs; mode "default"
+        bindsym d exec discord; mode "default"
 
         bindsym $mod+o mode "default"
 }
