@@ -402,14 +402,6 @@ bindsym $mod+a focus parent
 
 bindsym $mod+Shift+s exec "flameshot gui"
 
-mode "open" {
-        bindsym f exec firefox; mode "default"
-        bindsym p exec "firefox --private-window"; mode "default"
-        bindsym t exec kitty; mode "default"
-        bindsym d exec discord; mode "default"
+exec --no-startup-id clipmenud
 
-        bindsym $mod+o mode "default"
-}
-
-bindsym $mod+o mode "open"
-
+bindsym $mod+shift+v exec "export CM_LAUNCHER=rofi && clipmenu"
