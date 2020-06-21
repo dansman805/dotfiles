@@ -402,6 +402,6 @@ bindsym $mod+a focus parent
 
 bindsym $mod+Shift+s exec "flameshot gui"
 
-exec --no-startup-id clipmenud
+exec clipmenud
 
 bindsym $mod+shift+v exec "export CM_LAUNCHER=rofi && clipmenu"
