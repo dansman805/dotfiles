@@ -5,5 +5,5 @@ function interactive_TOA
 
 	curl -H "X-TOA-Key:$TOA_KEY" -H "Content-Type:application/json" -H "X-Application-Origin:dansman805-interactive-api-usage" "https://theorangealliance.org/api/$argv" > $temp_file
 
-	echo '' | fzf --print-query --preview "cat $temp_file | jq {q}"
+	echo '' | fzf --ansi --print-query -q "jq -C ''" --preview "cat $temp_file | eval {q}"
 end
