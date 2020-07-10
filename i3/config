@@ -403,5 +403,6 @@ bindsym $mod+a focus parent
 bindsym $mod+Shift+s exec "flameshot gui"
 
 exec clipmenud
+exec 'setxkbmap -layout "us,us" -variant "basic,colemak" -option ctrl:nocaps -option shift:both_capslock'
 
 bindsym $mod+shift+v exec "export CM_LAUNCHER=rofi && clipmenu"
