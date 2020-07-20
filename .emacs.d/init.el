@@ -102,6 +102,9 @@
 (setq-default tab-width 2 indent-tabs-mode nil)
 (setq-default indent-tabs-mode nil)
 
+;; Set up line numbers
+(add-hook 'prog-mode-hook (linum-mode 1))
+
 ;; Always follow symlinks
 (setq vc-follow-symlinks t)
 

@@ -389,7 +389,7 @@ bindsym $mod+v split v
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+q layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -406,3 +406,4 @@ exec_always clipmenud
 exec_always "setxkbmap -layout 'us,us' -variant 'basic,colemak' -option && setxkbmap -layout 'us,us' -variant 'basic,colemak' -option ctrl:nocaps -option shift:both_capslock"
 
 bindsym $mod+shift+v exec "export CM_LAUNCHER=rofi && clipmenu"
+bindsym $mod+e exec "emacsclient -c"
