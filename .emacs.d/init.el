@@ -57,6 +57,11 @@
   :ensure t)
 
 ;; Configure org-mode and org-roam
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+
+
 (use-package org-roam
   :ensure t
   :config
@@ -75,27 +80,6 @@
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode))
-
-;; Configure god mode
-(use-package god-mode
-  :ensure t
-  :config
-  (god-mode)
-  (global-set-key (kbd "<escape>") #'god-local-mode)
-  (defun my-god-mode-update-modeline ()
-    (let ((limited-colors-p (> 257 (length (defined-colors)))))
-      (cond (god-local-mode (progn
-			      (set-face-background 'mode-line (if limited-colors-p "white" "#d7342a"))
-			      (set-face-background 'mode-line-inactive (if limited-colors-p "white" "#d7342a"))))
-	    (t (progn
-		 (set-face-background 'mode-line (if limited-colors-p "black" "#0a2832"))
-		 (set-face-background 'mode-line-inactive (if limited-colors-p "black" "#0a2832")))))))
-
-  (add-hook 'god-mode-enabled-hook #'my-god-mode-update-modeline)
-  (add-hook 'god-mode-disabled-hook #'my-god-mode-update-modeline)
-  (define-key god-local-mode-map (kbd "z") #'repeat)
-  (define-key god-local-mode-map (kbd "i") #'god-local-mode)
-  )
 
 ;; Setting up tabs
 (setq-default tab-width 4)
