@@ -87,7 +87,7 @@
 (setq-default indent-tabs-mode nil)
 
 ;; Set up line numbers
-(add-hook 'prog-mode-hook (linum-mode 1))
+(global-display-line-numbers-mode)
 
 ;; Always follow symlinks
 (setq vc-follow-symlinks t)
