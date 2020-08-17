@@ -38,36 +38,30 @@
 (add-to-list 'default-frame-alist '(height . 24))
 (add-to-list 'default-frame-alist '(width . 80))
 
-;; Configure ido
-(use-package ido
+;; Configure ivy
+(use-package ivy
   :ensure t
   :config
-  (ido-mode 1))
-
-(use-package ido-vertical-mode
-  :ensure t
-  :config
-  (ido-vertical-mode 1)
-  )
-
-(setq ido-vertical-define-keys 'C-n-and-C-p-only)
+  (ivy-mode 1))
 
 ;; Configure magit
 (use-package magit
   :ensure t)
 
-;; Configure org-mode and org-roam
+;; Configure orgmode
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)
 
+(setq-default org-catch-invisible-edits 'smart)
 
-(use-package org-roam
-  :ensure t
-  :config
-  (setq org-roam-directory "~/org-roam")
-  (add-hook 'after-init-hook 'org-roam-mode)
-  )
+;; Configure org-roam
+;; (use-package org-roam
+;;  :ensure t
+;;  :config
+;;  (setq org-roam-directory "~/org-roam")
+;;  (add-hook 'after-init-hook 'org-roam-mode)
+;;  )
 
 ;; Configure projectile
 (use-package projectile
@@ -93,7 +87,7 @@
 (setq vc-follow-symlinks t)
 
 ;; Single space after periods
-(setq sentence-end-double-space nil)
+(setq sentence-end-double-space nil))
 
 ;; Allow 20 MB of memory before garbage collection
 (setq gc-cons-threshold 20000000)
