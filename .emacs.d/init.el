@@ -76,7 +76,14 @@
   :ensure t
   :init (global-flycheck-mode))
 
-;; configure prettify-symbols-mode
+;; Configure auto-complete
+(use-package auto-complete
+  :ensure t
+  :config
+  (ac-config-default)
+  )
+
+;; Configure prettify-symbols-mode
 (setq-default prettify-symbols-unprettify-at-point 'right-edge)
 (global-prettify-symbols-mode)
 
