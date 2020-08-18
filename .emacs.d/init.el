@@ -21,7 +21,6 @@
 (eval-when-compile
   (require 'use-package))
 
-
 ;;; Make emacs pretty
 (tool-bar-mode 0)
 (menu-bar-mode -1)
@@ -55,6 +54,8 @@
 
 (setq-default org-catch-invisible-edits 'smart)
 
+(setq-default org-ellipsis " ⤵")
+
 ;; Configure org-roam
 ;; (use-package org-roam
 ;;  :ensure t
@@ -74,6 +75,10 @@
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode))
+
+;; configure prettify-symbols-mode
+(setq-default prettify-symbols-unprettify-at-point 'right-edge)
+(global-prettify-symbols-mode)
 
 ;; Setting up tabs
 (setq-default tab-width 4)
