@@ -99,7 +99,7 @@
 (setq vc-follow-symlinks t)
 
 ;; Single space after periods
-(setq sentence-end-double-space nil))
+(setq sentence-end-double-space nil)
 
 ;; Allow 20 MB of memory before garbage collection
 (setq gc-cons-threshold 20000000)
