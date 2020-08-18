@@ -76,11 +76,13 @@
   :ensure t
   :init (global-flycheck-mode))
 
-;; Configure auto-complete
-(use-package auto-complete
+;; Configure auto complete with company
+(use-package company
   :ensure t
   :config
-  (ac-config-default)
+  (setq company-idle-delay 0.25)
+  (setq company-show-numbers t)
+  :init (global-company-mode)
   )
 
 ;; Configure prettify-symbols-mode
@@ -120,7 +122,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (elcord flycheck projectile org-roam magit doom-themes use-package helm)))
+    (company-tabnine elcord flycheck projectile org-roam magit doom-themes use-package helm)))
  '(projectile-mode t nil (projectile)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
