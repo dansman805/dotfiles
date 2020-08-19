@@ -122,7 +122,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-tabnine elcord flycheck projectile org-roam magit doom-themes use-package helm)))
+    (centaur-tabs company-tabnine elcord flycheck projectile org-roam magit doom-themes use-package helm)))
  '(projectile-mode t nil (projectile)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
