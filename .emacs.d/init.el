@@ -27,6 +27,8 @@
 (set-frame-font "Fira Code Retina 13")
 (set-fontset-font t nil "Symbola" nil 'prepend)
 
+(set-face-attribute 'default nil :height 130)
+
 ;; Theme
 (use-package doom-themes
   :ensure t
