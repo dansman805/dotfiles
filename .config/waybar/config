@@ -9,7 +9,7 @@
     },
     "clock": {
         "interval": 60,
-        "format": "{:%H:%M %a, %F}",
+        "format": "{:%a, %F %H:%M}",
         "max-length": 25
     },
     "cpu": {
