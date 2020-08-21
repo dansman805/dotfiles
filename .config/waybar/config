@@ -5,7 +5,7 @@
     "modules-center": ["sway/window"],
     "modules-right": ["pulseaudio", "custom/weather", "network", "memory", "cpu", "clock"],
     "sway/window": {
-        "max-length": 50
+        "max-length": 100
     },
     "clock": {
         "interval": 60,
