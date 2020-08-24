@@ -39,7 +39,7 @@
 ;;; Make emacs pretty
 (tool-bar-mode 0)
 (menu-bar-mode -1)
-(set-frame-font "Fira Code Retina 13")
+(set-frame-font "Fira Code Retina 12")
 (set-fontset-font t nil "Symbola" nil 'prepend)
 
 (set-face-attribute 'default nil :height 130)
