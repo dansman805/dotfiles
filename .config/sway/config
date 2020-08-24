@@ -218,7 +218,7 @@ bindsym $mod+r mode "resize"
 # Launching programs
 #
     bindsym $mod+Shift+v exec "~/go/bin/clipman pick -t wofi"
-    bindsym $mod+Shift+Return exec firefox
+    bindsym $mod+Shift+Return exec firefox-wayland
     bindsym $mod+e exec "emacsclient -c"
     
 #
