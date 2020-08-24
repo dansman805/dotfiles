@@ -208,16 +208,14 @@ bindsym $mod+r mode "resize"
 #
 # Screenshots
 #
-    set $grimshot "~/dotfiles/.config/sway/grimshot.sh"
 
-    bindsym $mod+Shift+s exec "$grimshot copy area"
-    bindsym $mod+Mod1+s exec "$grimshot copy window"
-
+    bindsym $mod+Shift+s exec 'grim -g "$(slurp)" - | swappy -f -'
 
 #
 # Launching programs
 #
-    bindsym $mod+Shift+v exec "~/go/bin/clipman pick -t wofi"
+    bindsym $mod+Shift+v exec "/home/dansman805/go/bin/clipman pick -t wofi"
+    bindsym $mod+Shift+d exec "/home/dansman805/go/bin/clipman clear -t wofi"
     bindsym $mod+Shift+Return exec firefox-wayland
     bindsym $mod+e exec "emacsclient -c"
     
@@ -241,7 +239,7 @@ default_border pixel
 
 exec mako
 
-exec wl-paste -t text --watch clipman store
+exec_always "wl-paste -t text --watch /home/dansman805/go/bin/clipman store"
 
 include /etc/sway/config.d/*
 
