@@ -21,6 +21,21 @@
 (eval-when-compile
   (require 'use-package))
 
+
+;; Theme
+(use-package doom-themes
+  :config
+  ;; Global settings (defaults)
+  (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+        doom-themes-enable-italic t) ; if nil, italics is universally disabled
+  (load-theme 'doom-dark+ t)
+
+  ;; Enable flashing mode-line on errors
+  (doom-themes-visual-bell-config)
+    
+  ;; Corrects (and improves) org-mode's native fontification.
+  (doom-themes-org-config))
+
 ;;; Make emacs pretty
 (tool-bar-mode 0)
 (menu-bar-mode -1)
@@ -28,12 +43,6 @@
 (set-fontset-font t nil "Symbola" nil 'prepend)
 
 (set-face-attribute 'default nil :height 130)
-
-;; Theme
-(use-package doom-themes
-  :ensure t
-  :config
-  (load-theme 'doom-one t))
 
 ;; Set font and default size
 (add-to-list 'default-frame-alist '(height . 24))
@@ -117,20 +126,7 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (centaur-tabs company-tabnine elcord flycheck projectile org-roam magit doom-themes use-package helm)))
- '(projectile-mode t nil (projectile)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-(put 'narrow-to-region 'disabled nil)
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
 ;;; init.el ends here
