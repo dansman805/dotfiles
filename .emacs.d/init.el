@@ -105,6 +105,9 @@
 (setq-default tab-width 2 indent-tabs-mode nil)
 (setq-default indent-tabs-mode nil)
 
+;; set up rainbow-mode
+(use-package rainbow-mode)
+
 ;; Set up line numbers
 (global-display-line-numbers-mode)
 
