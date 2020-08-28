@@ -67,14 +67,6 @@
 
 (setq-default org-ellipsis " ⤵")
 
-;; Configure org-roam
-;; (use-package org-roam
-;;  :ensure t
-;;  :config
-;;  (setq org-roam-directory "~/org-roam")
-;;  (add-hook 'after-init-hook 'org-roam-mode)
-;;  )
-
 ;; Configure projectile
 (use-package projectile
   :ensure t
