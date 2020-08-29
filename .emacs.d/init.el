@@ -112,14 +112,9 @@
 ;; Allow 20 MB of memory before garbage collection
 (setq gc-cons-threshold 20000000)
 
-;; Don't make backup files
-(setq make-backup-files nil)
-
-;; Auto-Save in /tmp
-(setq backup-directory-alist
-      `((".*" . ,temporary-file-directory)))
-(setq auto-save-file-name-transforms
-      `((".*" ,temporary-file-directory t)))
+;; Setup backup files
+(setq backup-directory-alist `(("." . "~/.saves")))
+(setq backup-by-copying t)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
