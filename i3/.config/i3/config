@@ -205,3 +205,10 @@ exec_always "setxkbmap -layout 'us,us' -variant 'colemak,basic' -option ctrl:noc
 bindsym $mod+Shift+Return exec firefox
 bindsym $mod+Shift+s exec "flameshot gui"
 bindsym $mod+e exec "emacsclient -c"
+
+# Clipboard management
+exec_always copyq
+
+bindsym $mod+Shift+v exec "copyq show"
+
+for_window [class="copyq"] floating enable
