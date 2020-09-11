@@ -203,4 +203,4 @@ exec_always "setxkbmap -layout 'us,us' -variant 'colemak,basic' -option ctrl:noc
 # Launch random stuff
 bindsym $mod+Shift+Return exec firefox
 bindsym $mod+Shift+s exec "flameshot gui"
-bindsym $mod+e exec "emacs"
+bindsym $mod+e exec "emacsclient -c"
