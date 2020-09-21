@@ -12,3 +12,5 @@ name=dansman805
     rebase = true
 [rebase]
     autoStash = true
+[init]
+    defaultBranch = main
