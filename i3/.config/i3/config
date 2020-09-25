@@ -47,7 +47,7 @@ set $right semicolon
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -213,5 +213,5 @@ bindsym $mod+Shift+v exec "copyq show"
 for_window [class="copyq"] floating enable
 
 # Screenshots
-bindsym $mod+Shift+s exec "ksnip --rectarea"
+bindsym $mod+Shift+s exec "snip --rectarea"
 for_window [class="ksnip"] floating enable
