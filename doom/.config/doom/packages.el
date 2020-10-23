@@ -49,3 +49,4 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 (package! solarized-theme)
+(package! org-bullets)

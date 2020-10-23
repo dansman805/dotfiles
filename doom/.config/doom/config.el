@@ -56,3 +56,6 @@
 ;; when shell is fish, projectile runs `fd` and it spawns in the home directory
 ;; for some reason
 (setq shell-file-name (executable-find "bash"))
+
+;; sets pretty bullets for org mode
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
