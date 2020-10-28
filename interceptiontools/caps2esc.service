@@ -1,0 +1,8 @@
+[Unit]
+Description=caps2esc
+
+[Service]
+ExecStart=/usr/bin/nice -n -20 /usr/local/bin/udevmon -c /home/dansman805/dotfiles/interceptiontools/caps2esc.yaml
+
+[Install]
+WantedBy=multi-user.target
