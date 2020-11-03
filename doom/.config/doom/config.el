@@ -59,3 +59,7 @@
 
 ;; sets pretty bullets for org mode
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+;; sets auth sources to only use ~/.authinfo file
+;; this is primarily for ghub, which is in turn primarily for magit forge
+(setq auth-sources '("~/.authinfo"))
