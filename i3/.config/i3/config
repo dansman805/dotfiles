@@ -216,5 +216,3 @@ for_window [class="copyq"] floating enable
 bindsym $mod+Shift+s exec "ksnip --rectarea"
 for_window [class="ksnip"] floating enable
 
-# Run picom (a compositor)
-exec_always "picom &"
