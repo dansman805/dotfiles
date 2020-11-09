@@ -1,1 +1,2 @@
-nixos/wifi.nix
+nixos/hardware-configuration.nix
+nixos/device.nix
