@@ -63,3 +63,6 @@
 ;; sets auth sources to only use ~/.authinfo file
 ;; this is primarily for ghub, which is in turn primarily for magit forge
 (setq auth-sources '("~/.authinfo"))
+
+;; Enable nix-mode
+(add-to-list 'auto-mode-alist '("\\.nix\\'" . nix-mode))

@@ -50,3 +50,4 @@
 ;(unpin! t)
 (package! solarized-theme)
 (package! org-bullets)
+(package! nix-mode)

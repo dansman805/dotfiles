@@ -20,7 +20,7 @@ in {
 
     # Text editors
     doom-emacs vim
-	 
+
     # Language-specific tools
     clang
 
@@ -32,7 +32,7 @@ in {
     enable = true;
     userName = "dansman805";
     userEmail = "dansman805@gmail.com";
-  };																																																						
+  };
 
   home.file.".emacs.d/init.el".text = ''
       (load "default.el")
