@@ -3,10 +3,13 @@
 {
   home.packages = with pkgs; [
     # GUI tools
-    firefox
+    firefox kitty
     
     # General-purpose CLI tools
     wget
+
+    # Text editors
+    vim
   ];
 
   programs.git = {
