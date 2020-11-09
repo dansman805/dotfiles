@@ -9,6 +9,8 @@ let
     # Directory containing your config.el init.el                             # and packages.el files
   };
 in {
+  fonts.fontconfig.enable = true;
+
   home.packages = with pkgs; [
     # GUI tools
     firefox kitty
@@ -21,6 +23,9 @@ in {
 	 
     # Language-specific tools
     clang
+
+    # Fonts
+    fira
   ];
 
   programs.git = {
