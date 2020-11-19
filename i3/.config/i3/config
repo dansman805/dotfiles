@@ -199,7 +199,7 @@ bar {
 default_border pixel 2
 
 exec "~/.screenlayout/screenlayout.sh"
-exec_always "setxkbmap -layout 'us,us' -variant 'colemak,basic' -option ctrl:nocaps -option shift:both_capslock -option grp:sclk_toggle -option grp_led:scroll"
+exec_always "setxkbmap -layout 'us,us' -variant 'colemak,basic' -option caps:escape -option grp:sclk_toggle -option grp_led:scroll"
 
 # Launch random stuff
 bindsym $mod+Shift+Return exec firefox
