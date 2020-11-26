@@ -11,6 +11,10 @@ in
   ];
   
   home-manager.users.dansman805 = {
-
+    home.packages = with pkgs; [
+      firefox
+      kitty
+      rofi
+    ];
   };
 }
