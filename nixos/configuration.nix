@@ -5,6 +5,11 @@
 { config, pkgs, ... }:
 
 {
+  imports = [
+    ./dansman805-desktop.nix
+    ./home.nix
+  ];
+  
   nix = {
     package = pkgs.nixFlakes;
     extraOptions = ''
