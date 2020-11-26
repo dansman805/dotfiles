@@ -20,12 +20,19 @@
       fsType = "vfat";
     };
 
+  fileSystems."/home" =
+    { device = "/dev/sda5";
+      fsType = "ext4";
+    };
+
+
   swapDevices = [ ];
 
   boot.loader.grub.device = "/dev/sda";
 	
   networking.hostName = "dansman805-desktop"; # Define your hostname.
 
-  # time.timeZone = "Europe/Amsterdam";
+  # time.timeZone = "Europe/Amsterdam"; 
 
+  services.xserver.videoDrivers = [ "nvidia" ];
 }
