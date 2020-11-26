@@ -1,5 +1,4 @@
 rofi.width: 400
-rofi.theme: ~/.config/rofi/bala.rasi
-rofi.terminal: urxvt
+rofi.terminal: kitty
 rofi.cycle: false
 rofi.m: 0
