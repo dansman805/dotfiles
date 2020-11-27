@@ -60,3 +60,6 @@
 ;; sets auth sources to only use ~/.authinfo file
 ;; this is primarily for ghub, which is in turn primarily for magit forge
 (setq auth-sources '("~/.authinfo"))
+
+(setq evil-snipe-scope 'visible)
+(setq evil-snipe-repeat-scope 'whole-buffer)
