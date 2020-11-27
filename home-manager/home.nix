@@ -26,6 +26,9 @@ in
     coreutils
     fd
     tree
+    jq
+    trash-cli
+    tealdeer
 
     # Command line fun
     fortune
