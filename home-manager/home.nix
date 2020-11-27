@@ -11,14 +11,23 @@ in
   ];
 
   home.packages = with pkgs; [
+    # GUI tools
     firefox
     kitty
-    rofi
 
+    # GUI Utilities
+    flameshot
+    rofi
+    i3status-rust
+
+    # Command line utilities
     ripgrep
     coreutils
     fd
+
+    # Compilers/programming language stuff
     clang
+    gradle openjdk
 
     # Fonts
     fira
