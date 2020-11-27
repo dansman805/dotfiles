@@ -7,7 +7,6 @@
 {
   imports = [
     ./dansman805-desktop.nix
-    ./home.nix
   ];
   
   nixpkgs.config.allowUnfree = true; 
