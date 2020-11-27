@@ -32,7 +32,7 @@
 	
   networking.hostName = "dansman805-desktop"; # Define your hostname.
 
-  # time.timeZone = "Europe/Amsterdam"; 
+  time.timeZone = "America/New_York";
 
   services.xserver.videoDrivers = [ "nvidia" ];
 }
