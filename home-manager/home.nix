@@ -1,10 +1,5 @@
 { pkgs, ... }:
 
-let
-  home-manager = builtins.fetchGit {
-    url = "https://github.com/rycee/home-manager.git";
-  };
-in
 {
   imports = [
     ./xdg.nix
@@ -24,6 +19,10 @@ in
     flameshot
     rofi
     i3status-rust
+
+    # Games
+    minecraft
+    multimc
 
     # Command line utilities
     ripgrep
