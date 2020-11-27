@@ -12,9 +12,13 @@ in
     ./kitty.nix
   ];
 
+  nixpkgs.config.allowUnfree = true;
+
   home.packages = with pkgs; [
     # GUI tools
     firefox
+    discord
+    google-chrome
 
     # GUI Utilities
     flameshot
@@ -29,6 +33,8 @@ in
     jq
     trash-cli
     tealdeer
+    ffmpeg
+    imagemagick
 
     # Command line fun
     fortune
