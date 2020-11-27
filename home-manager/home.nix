@@ -8,12 +8,12 @@ in
 {
   imports = [
     ./xdg.nix
+    ./kitty.nix
   ];
 
   home.packages = with pkgs; [
     # GUI tools
     firefox
-    kitty
 
     # GUI Utilities
     flameshot
