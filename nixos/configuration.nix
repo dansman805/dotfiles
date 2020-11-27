@@ -51,6 +51,8 @@
 
   environment.shells = [ pkgs.bashInteractive pkgs.fish ];
 
+  services.interception-tools.enable = true;
+
   system.stateVersion = "20.09"; # Did you read the comment?
 }
 
