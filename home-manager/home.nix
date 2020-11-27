@@ -6,20 +6,23 @@ let
   };
 in
 {
-  xdg.enable = true;
+  imports = [
+    ./xdg.nix
+  ];
 
   home.packages = with pkgs; [
     firefox
     kitty
     rofi
-    emacs
 
     ripgrep
     coreutils
     fd
     clang
   ];
-
+  
   # shell = pkgs.fish;
   programs.fish.enable = true;
+
+  programs.emacs.enable = true;
 }
