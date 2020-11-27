@@ -24,6 +24,7 @@ in
     ripgrep
     coreutils
     fd
+    tree
 
     # Compilers/programming language stuff
     clang
