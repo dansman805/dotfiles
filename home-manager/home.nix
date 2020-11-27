@@ -3,19 +3,19 @@
 {
   imports = [
     ./xdg.nix
-    ./fish.nix
     ./kitty.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    # GUI tools
+    # GUI applications
     firefox
     discord
     google-chrome
+    pavucontrol
 
-    # GUI Utilities
+    # GUI utilities
     flameshot
     rofi
     i3status-rust

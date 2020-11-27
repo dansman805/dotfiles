@@ -19,6 +19,11 @@ in
         source = dotfilesDir + "/git/";
         recursive = true;
       };
+
+      "fish" = {
+        source = dotfilesDir + "/fish/";
+        recursive = true;
+      };
     };
   };
 }
