@@ -6,21 +6,20 @@ let
   };
 in
 {
-    home.packages = with pkgs; [
-      firefox
-      kitty
-      rofi
-      emacs
+  xdg.enable = true;
 
-      ripgrep
-      coreutils
-      fd
-      clang
-    ];
-    home.file.".emacs.d/init.el".text = ''
-        (load "default.el")
-    '';
+  home.packages = with pkgs; [
+    firefox
+    kitty
+    rofi
+    emacs
 
-    # shell = pkgs.fish;
-    programs.fish.enable = true;
+    ripgrep
+    coreutils
+    fd
+    clang
+  ];
+
+  # shell = pkgs.fish;
+  programs.fish.enable = true;
 }
