@@ -24,7 +24,6 @@
   services.xserver.enable = true;
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.windowManager.i3.enable = true;
-  services.picom.enable = true;
   
   # Configure keymap in X11
   services.xserver.layout = "us";
@@ -46,8 +45,11 @@
 
   # System-level packages
   environment.systemPackages = with pkgs; [
-    git wget vim
+    git wget vim gcc
+    fish
    ];
+
+  environment.shells = [ pkgs.bashInteractive pkgs.fish ];
 
   system.stateVersion = "20.09"; # Did you read the comment?
 }

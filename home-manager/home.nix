@@ -36,6 +36,7 @@ in
 
     # Compilers/programming language stuff
     clang
+    gnumake libtool cmake
     gradle openjdk
 
     # Fonts

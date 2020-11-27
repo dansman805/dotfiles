@@ -53,10 +53,6 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; when shell is fish, projectile runs `fd` and it spawns in the home directory
-;; for some reason
-(setq shell-file-name (executable-find "bash"))
-
 ;; sets auth sources to only use ~/.authinfo file
 ;; this is primarily for ghub, which is in turn primarily for magit forge
 (setq auth-sources '("~/.authinfo"))
