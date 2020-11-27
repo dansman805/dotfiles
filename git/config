@@ -1,9 +1,9 @@
 [user]
 email=dansman805@gmail.com
-name=dansman805
+name=Daniel Goz
 
 [core]
-    excludesfile = /home/dansman805/dotfiles/git/.gitignore_global
+    excludesfile = ./.gitignore_global
 [branch]
     autosetuprebase = always
 [merge]
@@ -14,3 +14,5 @@ name=dansman805
     autoStash = true
 [init]
     defaultBranch = main
+[github]
+    user = dansman805

@@ -34,6 +34,7 @@
     tealdeer
     ffmpeg
     imagemagick
+    nixfmt
 
     # Command line fun
     fortune
