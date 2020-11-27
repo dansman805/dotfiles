@@ -19,10 +19,18 @@ in
     coreutils
     fd
     clang
+
+    # Fonts
+    fira
+    fira-code
+    fira-mono
   ];
   
   # shell = pkgs.fish;
   programs.fish.enable = true;
 
   programs.emacs.enable = true;
+  services.emacs.enable = true;
+
+  fonts.fontconfig.enable = true;
 }
