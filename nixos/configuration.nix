@@ -24,6 +24,7 @@
   services.xserver.enable = true;
   services.xserver.displayManager.lightdm.enable = true;
   services.xserver.windowManager.i3.enable = true;
+  services.picom.enable = true;
   
   # Configure keymap in X11
   services.xserver.layout = "us";
