@@ -35,4 +35,9 @@
   time.timeZone = "America/New_York";
 
   services.xserver.videoDrivers = [ "nvidia" ];
+  services.xserver.dpi = 94;
+  services.xserver.xrandrHeads = [
+    "DP-0"
+    {"output" = "HDMI-0"; "monitorConfig" = "DisplaySize 400 300";}
+  ];
 }
