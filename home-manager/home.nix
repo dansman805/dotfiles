@@ -8,6 +8,7 @@ in
 {
   imports = [
     ./xdg.nix
+    ./fish.nix
     ./kitty.nix
   ];
 
@@ -26,6 +27,10 @@ in
     fd
     tree
 
+    # Command line fun
+    fortune
+    cowsay
+
     # Compilers/programming language stuff
     clang
     gradle openjdk
@@ -36,9 +41,6 @@ in
     fira-mono
   ];
   
-  # shell = pkgs.fish;
-  programs.fish.enable = true;
-
   programs.emacs.enable = true;
   services.emacs.enable = true;
 
