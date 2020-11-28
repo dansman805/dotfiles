@@ -42,6 +42,7 @@
     haskellPackages.FractalArt
     unzip
     git-lfs
+    p7zip
 
     # Command line fun
     fortune
