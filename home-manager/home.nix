@@ -20,6 +20,7 @@
     rofi
     i3status-rust
     feh
+    copyq
 
     # Games
     minecraft
