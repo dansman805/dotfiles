@@ -8,7 +8,8 @@
   imports = [
     ./dansman805-desktop.nix
   ];
-  
+
+  nix.autoOptimiseStore = true;
   nixpkgs.config.allowUnfree = true; 
  
   networking.networkmanager.enable = true;
