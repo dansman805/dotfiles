@@ -41,6 +41,7 @@
     nixfmt
     haskellPackages.FractalArt
     unzip
+    git-lfs
 
     # Command line fun
     fortune
