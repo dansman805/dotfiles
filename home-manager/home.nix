@@ -19,6 +19,7 @@
     flameshot
     rofi
     i3status-rust
+    feh
 
     # Games
     minecraft

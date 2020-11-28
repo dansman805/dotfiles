@@ -41,7 +41,10 @@
   users.users.dansman805 = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkManager" ]; # Enable ‘sudo’ for the user.
+    shell = pkgs.fish;
   };
+
+  programs.fish.enable = true;
 
   # System-level packages
   environment.systemPackages = with pkgs; [
@@ -49,9 +52,8 @@
     fish
    ];
 
-  environment.shells = [ pkgs.bashInteractive pkgs.fish ];
-
   services.interception-tools.enable = true;
+  services.fractalart.enable = true;
 
   system.stateVersion = "20.09"; # Did you read the comment?
 }
