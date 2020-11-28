@@ -40,6 +40,7 @@
     imagemagick
     nixfmt
     haskellPackages.FractalArt
+    zip
     unzip
     git-lfs
     p7zip
