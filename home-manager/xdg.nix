@@ -24,6 +24,8 @@ in
         source = dotfilesDir + "/fish/";
         recursive = true;
       };
+
+      "nixpkgs/config.nix".text = "{ allowUnfree = true; }";
     };
   };
 }
