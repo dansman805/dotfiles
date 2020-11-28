@@ -21,6 +21,8 @@
     i3status-rust
     feh
     copyq
+    scrcpy
+    fzf
 
     # Games
     minecraft
