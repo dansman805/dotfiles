@@ -40,6 +40,7 @@
     imagemagick
     nixfmt
     haskellPackages.FractalArt
+    unzip
 
     # Command line fun
     fortune
