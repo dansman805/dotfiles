@@ -36,6 +36,7 @@
     ffmpeg
     imagemagick
     nixfmt
+    haskellPackages.FractalArt
 
     # Command line fun
     fortune

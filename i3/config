@@ -217,4 +217,8 @@ bindsym $mod+Shift+s exec "flameshot gui"
 
 # Configure firefox picture-in-picture
 for_window [title="Picture-in-Picture"] \
-   sticky enable, border none, resize set 480 270, move position 2050 650
+    sticky enable, border none, resize set 480 270, move position 2050 650
+
+# Background
+exec_always "FractalArt --no-bg -f /dev/stdout \
+    | feh --bg-center --no-fehbg --no-xinerama -"
