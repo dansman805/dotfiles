@@ -53,7 +53,7 @@
    ];
 
   services.interception-tools.enable = true;
-  services.fractalart.enable = true;
+  services.picom.enable = true;
 
   system.stateVersion = "20.09"; # Did you read the comment?
 }

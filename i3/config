@@ -215,9 +215,6 @@ for_window [class="copyq"] floating enable
 # Screenshots
 bindsym $mod+Shift+s exec "flameshot gui"
 
-# Run picom (a compositor)
-exec_always "picom -b"
-
 # Configure firefox picture-in-picture
 for_window [title="Picture-in-Picture"] \
    sticky enable, border none, resize set 480 270, move position 2050 650
