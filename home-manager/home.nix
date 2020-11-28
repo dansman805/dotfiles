@@ -14,6 +14,7 @@
     discord
     google-chrome
     pavucontrol
+    xfce.thunar
 
     # GUI utilities
     flameshot
