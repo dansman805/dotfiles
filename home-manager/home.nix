@@ -54,6 +54,7 @@
     clang
     gnumake libtool cmake
     gradle openjdk
+    python38
 
     # Fonts
     fira
