@@ -49,6 +49,7 @@
     gradle openjdk
     python38
     nixfmt
+    zig
 
     # Fonts
     fira
