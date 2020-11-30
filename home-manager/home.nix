@@ -30,21 +30,14 @@
     multimc
 
     # Command line utilities
-    ripgrep
+    ripgrep fd
     coreutils
-    fd
-    tree
-    jq
-    trash-cli
+    tree jq trash-cli
     tealdeer
-    ffmpeg
-    imagemagick
-    nixfmt
+    ffmpeg imagemagick pandoc
     haskellPackages.FractalArt
-    zip
-    unzip
+    zip unzip p7zip
     git-lfs
-    p7zip
 
     # Command line fun
     fortune
@@ -55,6 +48,7 @@
     gnumake libtool cmake
     gradle openjdk
     python38
+    nixfmt
 
     # Fonts
     fira
