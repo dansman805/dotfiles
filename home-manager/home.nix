@@ -51,6 +51,10 @@
     nixfmt
     zig
 
+    # IDEs
+    jetbrains.idea-community
+    android-studio
+
     # Fonts
     fira
     fira-code
