@@ -63,6 +63,7 @@
   
   programs.emacs.enable = true;
   services.emacs.enable = true;
+  services.emacs.client.enable = true;
 
   fonts.fontconfig.enable = true;
 }
