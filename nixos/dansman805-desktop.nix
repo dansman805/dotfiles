@@ -40,4 +40,6 @@
     "DP-0"
     {"output" = "HDMI-0"; "monitorConfig" = "DisplaySize 400 300";}
   ];
+
+  services.printing.drivers = [ pkgs.gutenprint pkgs.gutenprintBin ];
 }
