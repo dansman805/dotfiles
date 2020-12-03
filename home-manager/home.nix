@@ -38,6 +38,7 @@
     haskellPackages.FractalArt
     zip unzip p7zip
     git-lfs
+    ispell
 
     # Command line fun
     fortune
