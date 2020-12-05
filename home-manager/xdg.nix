@@ -11,7 +11,6 @@ in
       "doom" = {
         source = dotfilesDir + "/doom";
         recursive = true;
-        onChange = ".emacs.d/bin/doom sync";
       };
 
       "i3/config".source = dotfilesDir + "/i3/config";
