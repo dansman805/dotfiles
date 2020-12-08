@@ -39,6 +39,7 @@
     zip unzip p7zip
     git-lfs
     ispell
+    graphviz
 
     # Command line fun
     fortune
