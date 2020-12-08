@@ -40,6 +40,7 @@
     git-lfs
     ispell
     graphviz
+    appimage-run
 
     # Command line fun
     fortune
