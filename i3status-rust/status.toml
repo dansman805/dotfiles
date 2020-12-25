@@ -8,6 +8,10 @@ format = "{percentage}% {time}"
 device = "BAT1"
 
 [[block]]
+block = "backlight"
+step_width = 1
+
+[[block]]
 block = "sound"
 step_width = 1
 
