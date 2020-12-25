@@ -6,7 +6,7 @@
 
 {
   imports = [
-    ./dansman805-desktop.nix
+    ./dansman805-laptop.nix
   ];
 
   nix.autoOptimiseStore = true;
