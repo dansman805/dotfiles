@@ -59,9 +59,8 @@
     android-studio
 
     # Fonts
-    fira
-    fira-code
-    fira-mono
+    fira fira-code fira-mono
+    montserrat
   ];
   
   programs.emacs.enable = true;
