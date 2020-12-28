@@ -59,3 +59,7 @@
 
 (setq evil-snipe-scope 'visible)
 (setq evil-snipe-repeat-scope 'whole-buffer)
+
+(map! :leader
+      :desc "Mixed-pitch mode"
+      "t m" #'mixed-pitch-mode)
