@@ -12,6 +12,7 @@ name=Daniel Goz
     rebase = true
 [rebase]
     autoStash = true
+    autosquash = true
 [init]
     defaultBranch = main
 [github]
