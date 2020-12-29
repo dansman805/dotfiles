@@ -35,6 +35,19 @@
 
   time.timeZone = "America/New_York";
 
+  # Setup nvidia card with prime sync
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia.prime = {
+    sync.enable = true;
+
+    # Bus ID of NVIDIA GPU
+    nvidiaBusId = "PCI:1:0:0";
+
+    # Bus ID of Intel GPU
+    intelBusId = "PCI:0:2:0";
+  };
+  services.xserver.dpi = 96;
+
   services.xserver.libinput.enable = true;
 
   # Setup steam
