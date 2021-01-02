@@ -40,6 +40,7 @@
     ispell
     graphviz
     appimage-run
+    xclip
 
     # Command line fun
     fortune
