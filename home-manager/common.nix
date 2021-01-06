@@ -41,6 +41,7 @@
     graphviz
     appimage-run
     xclip
+    units
 
     # Command line fun
     fortune
