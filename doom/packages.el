@@ -49,4 +49,6 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 (package! literate-calc-mode)
-(package! zig-mode)
+
+(package! screenshot
+  :recipe (:host github :repo "tecosaur/screenshot"))

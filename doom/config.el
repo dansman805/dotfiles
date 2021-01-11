@@ -63,3 +63,7 @@
 (map! :leader
       :desc "Mixed-pitch mode"
       "t m" #'mixed-pitch-mode)
+
+(map! :leader
+      :desc "Take a screenshot"
+      "S" #'screenshot)
