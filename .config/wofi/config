@@ -1,9 +1,0 @@
-allow_images=true
-allow_markup=true
-insensitive=true
-hide_scroll=true
-dkey_up=Control_L-p
-lines=5
-no_actions=true
-term=kitty
-width=600
