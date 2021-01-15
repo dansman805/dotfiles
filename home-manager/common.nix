@@ -36,7 +36,7 @@
     ffmpeg imagemagick pandoc
     haskellPackages.FractalArt
     zip unzip p7zip
-    git-lfs
+    gitAndTools.gh git-lfs
     ispell
     graphviz
     appimage-run
