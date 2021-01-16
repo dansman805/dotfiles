@@ -53,6 +53,7 @@
   environment.systemPackages = with pkgs; [
     git wget vim gcc
     fish
+    rdiff-backup # for backup
    ];
 
   services.interception-tools.enable = true;

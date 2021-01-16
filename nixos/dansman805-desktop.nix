@@ -25,6 +25,11 @@
       fsType = "ext4";
     };
 
+fileSystems."/backup" =
+    { device = "/dev/disk/by-label/Backup";
+      fsType = "ext4";
+    };
+
 
   swapDevices = [ ];
 
@@ -52,4 +57,12 @@
   hardware.opengl.extraPackages32 = with pkgs.pkgsi686Linux; [ libva ];
   hardware.pulseaudio.support32Bit = true;
   programs.steam.enable = true;
+
+  # Do backups
+  services.cron = {
+    enable = true;
+    systemCronJobs = [
+      "0 * * * *      root      rdiff-backup -v5 /home/dansman805 /backup/home/ > /tmp/backup.log"
+    ];
+  };
 }
