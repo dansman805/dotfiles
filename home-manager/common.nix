@@ -68,5 +68,15 @@
   services.emacs.enable = true;
   services.emacs.client.enable = true;
 
+  services.dunst.enable = true;
+  services.dunst.settings = {
+      global = {
+          transparency = 10;
+          geometry = "300x40-30+20";
+
+          font = "Monsterrat 12";
+      };
+  };
+
   fonts.fontconfig.enable = true;
 }
