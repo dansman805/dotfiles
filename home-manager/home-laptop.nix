@@ -14,6 +14,8 @@
 
       "i3/config".source = ../i3/config;
 
+      "i3status-rust/status.toml".source = ../i3status-rust/status-laptop.toml;
+
       "git" = {
         source = ../git;
         recursive = true;
