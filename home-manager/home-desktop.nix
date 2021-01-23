@@ -1,27 +1,26 @@
 { pkgs, ... }:
 
-let
-  dotfilesDir = /home/dansman805/dotfiles;
-in
-{ 
+{
+  imports = [ ./common.nix ];
+
   xdg = {
     enable = true;
 
     configFile = {
       "doom" = {
-        source = dotfilesDir + "/doom";
+        source = ../doom;
         recursive = true;
       };
 
-      "i3/config".source = dotfilesDir + "/i3/config";
+      "i3/config".source = ../i3/config;
 
       "git" = {
-        source = dotfilesDir + "/git/";
+        source = ../git;
         recursive = true;
       };
 
       "fish" = {
-        source = dotfilesDir + "/fish/";
+        source = ../fish;
         recursive = true;
       };
 

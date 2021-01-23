@@ -5,11 +5,13 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    ./dansman805-laptop.nix
-  ];
-
-  nix.autoOptimiseStore = true;
+  nix = {
+    autoOptimiseStore = true;
+    package = pkgs.nixFlakes;
+    extraOptions = ''
+      experimental-features = nix-command flakes
+    '';
+  };
   nixpkgs.config.allowUnfree = true; 
  
   networking.networkmanager.enable = true;

@@ -2,11 +2,10 @@
 
 {
   imports = [
-    ./xdg.nix
     ./kitty.nix
   ];
 
-  nixpkgs.config.allowUnfree = true;
+  # nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
     # GUI applications
