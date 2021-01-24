@@ -5,8 +5,6 @@
     ./kitty.nix
   ];
 
-  # nixpkgs.config.allowUnfree = true;
-
   home.packages = with pkgs; [
     # GUI applications
     firefox
@@ -63,8 +61,12 @@
     fira fira-code fira-mono
     montserrat
   ];
-  
-  programs.emacs.enable = true;
+
+  programs.emacs = {
+    enable = true;
+    package = pkgs.emacsGcc;
+    extraPackages = (epkgs: [ epkgs.vterm ] );
+  };
   services.emacs.enable = true;
   services.emacs.client.enable = true;
 

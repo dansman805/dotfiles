@@ -12,8 +12,9 @@
       experimental-features = nix-command flakes
     '';
   };
-  nixpkgs.config.allowUnfree = true; 
- 
+
+  nixpkgs.config.allowUnfree = true;
+
   networking.networkmanager.enable = true;
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
