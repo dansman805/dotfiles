@@ -27,7 +27,9 @@
 
   swapDevices = [ ];
 
-  powerManagement.cpuFreqGovernor = lib.mkDefault "powersave";
+  powerManagement.cpuFreqGovernor = lib.mkDefault "ondemand";
+  powerManagement.powertop.enable = true;
+  services.tlp.enable = true;
   
   boot.loader.systemd-boot.enable = true;
 	
