@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {
-  imports = [ ./common.nix ];
+  imports = [ ./home.nix ];
 
   xdg = {
     enable = true;
