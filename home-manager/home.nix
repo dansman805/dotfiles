@@ -40,6 +40,7 @@
     appimage-run
     xclip
     units
+    inotify-tools
 
     # Command line fun
     fortune
@@ -52,6 +53,7 @@
     python38
     nixfmt
     zig
+    nodejs
 
     # IDEs
     jetbrains.idea-community
