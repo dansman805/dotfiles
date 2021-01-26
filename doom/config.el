@@ -60,6 +60,9 @@
 (setq evil-snipe-scope 'visible)
 (setq evil-snipe-repeat-scope 'whole-buffer)
 
+(setq explicit-shell-file-name (executable-find "fish"))
+(setq vterm-shell (executable-find "fish"))
+
 (map! :leader
       :desc "Mixed-pitch mode"
       "t m" #'mixed-pitch-mode)
