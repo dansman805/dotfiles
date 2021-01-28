@@ -60,9 +60,6 @@
   services.interception-tools.enable = true;
   services.picom.enable = true;
 
-  services.postgresql.enable = true;
-  services.postgresql.package = pkgs.postgresql_11;
-
   system.stateVersion = "20.09"; # Did you read the comment?
 }
 
