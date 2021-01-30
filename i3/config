@@ -204,7 +204,8 @@ exec_always "setxkbmap -layout 'us,us' -variant 'colemak,basic' -option caps:esc
 # Launch random stuff
 bindsym $mod+Shift+Return exec firefox
 bindsym $mod+e exec "emacsclient -c"
-bindsym $mod+c exec "emacsclient --eval '(org-capture/open-frame)'"
+bindsym $mod+Control+e exec "~/.emacs_anywhere/bin/run"
+
 # Clipboard management
 exec_always copyq
 
@@ -219,6 +220,6 @@ bindsym $mod+Shift+s exec "flameshot gui"
 for_window [title="Picture-in-Picture"] \
     sticky enable, border none, resize set 480 270, move position 2050 650
 
-# Background
+# Wallpaper
 exec_always "FractalArt --no-bg -f /dev/stdout \
     | feh --bg-center --no-fehbg --no-xinerama -"
