@@ -53,6 +53,7 @@
     nixfmt
     zig
     nodejs
+    texlive.combined.scheme-medium
 
     # IDEs
     jetbrains.idea-community
