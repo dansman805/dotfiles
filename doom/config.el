@@ -63,6 +63,7 @@
 (setq explicit-shell-file-name (executable-find "fish"))
 (setq vterm-shell (executable-find "fish"))
 
+(setq display-line-numbers-type 'relative)
 
 ;; stolen from https://tecosaur.github.io/emacs-config/config.html#better-defaults
 (setq-default
@@ -73,8 +74,9 @@
 (setq undo-limit 80000000                         ; Raise undo-limit to 80Mb
       evil-want-fine-undo t                       ; By default while in insert all changes are one big blob. Be more granular
       auto-save-default t                         ; Nobody likes to loose work, I certainly don't
-      truncate-string-ellipsis "…")               ; Unicode ellispis are nicer than "...", and also save /precious/ space
+      truncate-string-ellipsis "…")               ; Unicode ellispis are nicer than "...", and also save /precious/
 
+;; keybindings
 (map! :leader
       :desc "Mixed-pitch mode"
       "t m" #'mixed-pitch-mode)
