@@ -61,6 +61,7 @@
     # Fonts
     fira fira-code fira-mono
     montserrat
+    overpass
   ];
 
   programs.emacs = {
