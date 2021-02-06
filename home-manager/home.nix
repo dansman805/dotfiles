@@ -37,7 +37,7 @@
     ispell
     graphviz
     appimage-run
-    xclip
+    xclip xdotool xorg.xwininfo
     units
     inotify-tools
 
