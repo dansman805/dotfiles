@@ -7,7 +7,7 @@
 
   home.packages = with pkgs; [
     # GUI applications
-    firefox google-chrome qutebrowser
+    firefox google-chrome
     discord
     pavucontrol
     xfce.thunar
