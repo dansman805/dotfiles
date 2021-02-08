@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-20.09";
     home-manager.url = "github:nix-community/home-manager/release-20.09";
-    emacs-overlay.url = "github:nix-community/emacs-overlay?rev=00a4d6991efa0eb7917206cdf81055701b48b8be";
+    emacs-overlay.url = "github:nix-community/emacs-overlay";
   };
 
   outputs = { nixpkgs, home-manager, emacs-overlay, ... }: {
