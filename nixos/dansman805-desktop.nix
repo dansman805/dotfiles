@@ -25,7 +25,7 @@
       fsType = "ext4";
     };
 
-fileSystems."/backup" =
+  fileSystems."/backup" =
     { device = "/dev/disk/by-label/Backup";
       fsType = "ext4";
     };
