@@ -49,6 +49,7 @@
   };
 
   programs.fish.enable = true;
+  programs.adb.enable = true;
 
   # System-level packages
   environment.systemPackages = with pkgs; [
