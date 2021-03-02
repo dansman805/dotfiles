@@ -37,6 +37,9 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; Set splash screen images
+;; Image taken from https://github.com/jeetelongname/doom-banners
+(setq fancy-splash-image "~/dotfiles/doom/cute-demon.png")
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
