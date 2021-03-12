@@ -78,8 +78,6 @@
       global = {
           transparency = 10;
           geometry = "700-30+20";
-
-          font = "Monsterrat 12";
       };
   };
 
